@@ -1,0 +1,184 @@
+.menu-container {
+  position: fixed; /* 固定在底部 */
+  bottom: 0; /* 定位到屏幕底部 */
+  left:49.2%; /* 水平居中 */
+  transform: translateX(-50%); /* 确保宽度为342px时居中对齐 */
+  width: 341px; /* 定宽 */
+  background-color: #ffffff;
+
+  border-radius: 4px 4px 0 0; /* 顶部圆角 */
+  transition: all 0.3s ease-out;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+  overflow: hidden; /* 隐藏超出部分 */
+  max-height: 60px; /* 初始高度，根据需要调整 */
+  z-index: 100; /* 确保菜单在最上层 */
+  padding: 10px;
+  align-items: center;
+  overflow: hidden; /* 初始状态隐藏超出内容 */
+}
+
+.menu-container.open {
+  max-height: 1500vh; /* 展开时的最大高度，可以覆盖整个视窗高度 */
+  border-radius: 4px 4px 0 0; /* 维持顶部圆角 */
+}
+.icon-arrow {
+  margin-left: 8px; /* 根据需要调整 */
+  width: 16px; /* 缩小图像的宽度 */
+  height: 16px; /* 缩小图像的高度 */
+  transition: transform 0.3s ease; /* 平滑转换图标 */
+}
+.icon-arrow.down {
+  transform: rotate(0deg);
+}
+.menu-header{
+  display: flex; /* 启用flex布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  font-size: 14px;
+  color: #218bff; /* 示例文字颜色 */
+}
+.frame-52 {
+  width: 230px;
+  display: flex;
+  justify-content: center; /* 确保内容水平居中 */
+  align-items: center; /* 确保内容垂直居中 */
+  font-size: 11px;
+  color: #54aeff;
+  text-align: center; /* 如果是单行文本，这个有助于文本居中 */
+}
+
+.icon-arrow.up {
+  transform: rotate(180deg); /* 箭头向上 */
+}
+
+.menu-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 这将使所有子项垂直居中 */
+  width: 100%; /* 或特定宽度 */
+  gap: 8px;
+}
+
+p {
+  margin: 0;
+}
+
+
+.menu-container.open .menu-content {
+
+  opacity: 1; /* 展开时显示内容 */
+}
+.div {
+    display: flex;
+    max-width: 342px;
+    flex-direction: column;
+    font-weight: 400;
+  }
+  .div-2 {
+    align-self: center;
+    display: flex;
+    margin-top: 5px;
+    width: 289px;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 16px;
+    line-height: 150%;
+    padding: px;
+  }
+  .personalize-your-credi {
+    color: rgba(33, 139, 255, 1);
+    font-size: 16px;
+    line-height: 100%;
+    font-family: Proxima Nova, sans-serif;
+    font-weight: 600;
+
+  }
+  .div-3 {
+    color: var(
+      --theme-white-theme-core-tokens-grey-02-helper-texts,
+      #a8a8a8
+    );
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+  }
+  .div-4 {
+    color: var(--theme-white-theme-core-tokens-primary-black, #262626);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+  }
+  .div-5 {
+    background-color: #d0d0d0;
+    min-height: 1px;
+    margin-top: 11px;
+    width: 100%;
+  }
+  .div-6 {
+    display: flex;
+    margin-top: 24px;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--theme-white-theme-core-tokens-primary-black, #262626);
+    white-space: nowrap;
+    line-height: 129%;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-7 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+    border-radius: 32px;
+    border: 1px solid
+      var(--theme-white-theme-core-tokens-primary-black, #262626);
+    background-color: var(
+      --theme-white-theme-core-tokens-primary-black,
+      #262626
+    );
+    aspect-ratio: 1.47;
+    justify-content: center;
+    color: var(--theme-white-theme-core-tokens-ui-background-white, #fff);
+    padding: 8px 16px;
+  }
+  .div-8 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+    border-radius: 32px;
+    border: 1px solid
+      var(--theme-white-theme-core-tokens-grey-02-helper-texts, #a8a8a8);
+    aspect-ratio: 2.18;
+    justify-content: center;
+    padding: 8px 16px;
+  }
+  .div-9 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+    border-radius: 32px;
+    border: 1px solid
+      var(--theme-white-theme-core-tokens-grey-02-helper-texts, #a8a8a8);
+    flex-grow: 1;
+    justify-content: center;
+    padding: 8px 16px;
+  }
+  .div-10 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+    border-radius: 32px;
+    border: 1px solid
+      var(--theme-white-theme-core-tokens-grey-02-helper-texts, #a8a8a8);
+    flex-grow: 1;
+    justify-content: center;
+    padding: 8px 16px;
+  }
+  .div-11 {
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Work Sans, sans-serif;
+    border-radius: 32px;
+    border: 1px solid
+      var(--theme-white-theme-core-tokens-grey-02-helper-texts, #a8a8a8);
+    aspect-ratio: 2.06;
+    justify-content: center;
+    padding: 8px 16px;
+  }
+  

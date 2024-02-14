@@ -1,0 +1,86 @@
+:root {
+    --text-medium-regular-font-family: "Work Sans", Helvetica;
+    --text-medium-regular-font-size: 14px;
+    --text-medium-regular-font-style: normal;
+    --text-medium-regular-font-weight: 400;
+    --text-medium-regular-letter-spacing: 0px;
+    --text-medium-regular-line-height: 18px;
+    --themewhite-themecore-tokensgrey-03-disabled: rgb(242, 242, 242);
+   }
+   .frame {
+    height: 120px;
+    position: relative;
+    width: 342px;
+    
+    
+   }
+   .frame .text-wrapper {
+    color: #000000;
+    font-family: "Work Sans-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    height: 28px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    top: -1px;
+    white-space: nowrap;
+   }
+   .frame .frame-wrapper {
+    background-color: var(--themewhite-themecore-tokensgrey-03-disabled);
+    border-radius: 16px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 48px;
+    width: 342px;
+   }
+   .frame .div {
+    width: fit-content;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    justify-content: center;
+    left: 9px;
+    position: relative;
+    top: 13px;
+   }
+   .frame .search-instance {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+   }
+   .frame .search-a-shoes {
+    background: transparent;
+    border: none;
+    color: #000000;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    width: 300px;
+    height: fit-content;
+    font-size: 18px;
+   }
+   .frame .vector {
+    height: 100px;
+    left: 342px;
+    position: absolute;
+    top: 1032px;
+    width: 100px;
+   }
+   .frame-661 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .search {
+    width: 24px;
+    height: 100%;
+  }

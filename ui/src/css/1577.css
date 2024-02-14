@@ -1,0 +1,82 @@
+/* Frame 1577 */
+
+@import url("https://fonts.googleapis.com/css2?family=Work Sans:wght@400;600&display=swap");
+
+p {
+  margin: 0;
+}
+
+.frame-1577 {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    align-items: self-start; /* 子元素在水平方向上居中 */
+    width: 342px; /* 或根据实际需要调整 */
+    box-sizing: border-box;
+    gap: 8px;
+  }
+  .frame-screen .group1449 {
+    height: 22px;
+    margin-right: -4px;
+    position: relative;
+    width: 346px;
+  }
+
+  .group-1577 {
+    gap: 8px;
+    width: 342px;
+    box-sizing: border-box;
+  }
+  .frame-157 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .category {
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    line-height: 180%;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+  }
+/* 图标和文本的容器，现在整合到.frame-1577内进行布局调整 */
+.group-58 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around; /* 确保子元素平均分布 */
+  align-items: center; /* 垂直居中对齐 */
+  box-sizing: border-box;
+  height: 60px;
+}
+
+/* 单个图标和文本的容器 */
+.frame-1569, .frame-1570, .frame-1571, .frame-1572, .frame-1573 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 垂直居中内容 */
+  align-items: center; /* 水平居中内容 */
+  height: 50px;
+  gap: 6px;
+  flex: 1; /* 确保每个容器平均分配空间 */
+}
+
+/* 图标样式 */
+.icon-plane-departure, .icon-utensils, .icon-shopping-cart, .icon-concierge-bell, .icon-entertainment {
+  width: 25; /* 允许图标宽度自适应容器宽度 */
+
+  height: 25px; /* 保持图标原始纵横比 */
+}
+
+/* 文本样式 */
+.travel, .dining, .shopping, .services, .entertai {
+  color: rgba(42, 42, 42, 1);
+  font-size: 14px;
+  line-height: 129%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-align: center; /* 文本居中对齐 */
+}

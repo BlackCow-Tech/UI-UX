@@ -1,0 +1,43 @@
+/* Group 59 */
+
+p {
+    margin: 0;
+  }
+  
+  .group-59 {
+    width: 390px;
+    height: 78px;
+    padding: 13px 51px 48px 73px;
+    border-top-width: 1px;
+    border-color: rgba(244, 244, 244, 1);
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 4px -1px 4px rgba(0, 0, 0, 0.25);
+  }
+  .group-910 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .group-52 {
+    width: 245px;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .personalize-your-credi {
+    color: rgba(33, 139, 255, 1);
+    font-size: 16px;
+    line-height: 100%;
+    font-family: Proxima Nova, sans-serif;
+    font-weight: 600;
+  }
+  
+  .icon-arrow-down {
+    width: 12px;
+    height: 6.55px;
+  }
+  

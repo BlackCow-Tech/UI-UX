@@ -1,0 +1,12 @@
+body {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  top: 100px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+
+

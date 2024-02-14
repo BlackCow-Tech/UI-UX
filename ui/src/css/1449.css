@@ -1,0 +1,109 @@
+:root {
+    --button-semibold-font-family: "Work Sans", Helvetica;
+    --button-semibold-font-size: 14px;
+    --button-semibold-font-style: normal;
+    --button-semibold-font-weight: 600;
+    --button-semibold-letter-spacing: 0px;
+    --button-semibold-line-height: 20px;
+    --grey-1: rgba(232, 232, 232, 1);
+    --productive-heading-04-font-family: "Work Sans", Helvetica;
+    --productive-heading-04-font-size: 16px;
+    --productive-heading-04-font-style: normal;
+    --productive-heading-04-font-weight: 600;
+    --productive-heading-04-letter-spacing: 0px;
+    --productive-heading-04-line-height: 20px;
+    --text-small-regular-font-family: "Work Sans", Helvetica;
+    --text-small-regular-font-size: 12px;
+    --text-small-regular-font-style: normal;
+    --text-small-regular-font-weight: 400;
+    --text-small-regular-letter-spacing: 0px;
+    --text-small-regular-line-height: 12px;
+    --themewhite-themecore-tokensprimary-black: rgba(38, 38, 38, 1);
+    --themewhite-themecore-tokensui-background-white: rgba(255, 255, 255, 1);
+    --title-medium-semibold-font-family: "Work Sans", Helvetica;
+    --title-medium-semibold-font-size: 20px;
+    --title-medium-semibold-font-style: normal;
+    --title-medium-semibold-font-weight: 600;
+    --title-medium-semibold-letter-spacing: 0px;
+    --title-medium-semibold-line-height: 22px;
+    --title-small-semibold-font-family: "Work Sans", Helvetica;
+    --title-small-semibold-font-size: 14px;
+    --title-small-semibold-font-style: normal;
+    --title-small-semibold-font-weight: 600;
+    --title-small-semibold-letter-spacing: 0px;
+    --title-small-semibold-line-height: 18px;
+   }
+   .frame-screen {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .frame-screen .group1449 {
+    height: 22px;
+    margin-right: -4px;
+    position: relative;
+    width: 346px;
+  }
+  .frame-brand {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    overflow-x: auto; /* 允许水平滚动 */
+    overflow-y: hidden; /* 隐藏并禁止垂直滚动 */
+    width: 342px; /* 或根据需要调整容器宽度 */
+    box-sizing: border-box;
+    scrollbar-width: thin; /* 为滚动条设置较细的样式（仅在支持的浏览器中） */
+    scrollbar-color: #888 #f0f0f0; /* 自定义滚动条颜色（仅在支持的浏览器中） */
+  }
+  
+  /* 针对Webkit浏览器的滚动条样式 */
+  .frame-brand::-webkit-scrollbar {
+    height: 8px; /* 调整滚动条高度 */
+  }
+  
+  .frame-brand::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
+  
+  .frame-brand::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .frame-screen .text-wrapper-8 {
+    color: #000000;
+    font-family: var(--title-medium-semibold-font-family);
+    font-size: var(--title-medium-semibold-font-size);
+    font-style: var(--title-medium-semibold-font-style);
+    font-weight: var(--title-medium-semibold-font-weight);
+    height: 22px;
+    left: 0;
+    letter-spacing: var(--title-medium-semibold-letter-spacing);
+    line-height: var(--title-medium-semibold-line-height);
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .frame-screen .text-wrapper-9 {
+    color: #000000;
+    font-family: var(--title-small-semibold-font-family);
+    font-size: var(--title-small-semibold-font-size);
+    font-style: var(--title-small-semibold-font-style);
+    font-weight: var(--title-small-semibold-font-weight);
+    height: 18px;
+    left: 295px;
+    letter-spacing: var(--title-small-semibold-letter-spacing);
+    line-height: var(--title-small-semibold-line-height);
+    position: absolute;
+    top: 2px;
+    white-space: nowrap;
+  }
+  
+
+  
+
+
+  

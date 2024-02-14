@@ -1,0 +1,124 @@
+/* Frame 1563 */
+
+@import url("https://fonts.googleapis.com/css2?family=Work Sans:wght@600;700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.frame-1563 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    width: 115px;
+    height: 106px;
+    box-sizing: border-box;
+}
+.group-56 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.frame1563-1550 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 23px 7px 7px;
+  border: 1px solid rgba(232, 232, 232, 1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.05);
+}
+.frame-1566 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 55px;
+  height: 18px;
+  padding: 4px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(33, 139, 255, 1);
+}
+.frame-1545 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.exp-1231 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+  line-height: 120%;
+  font-family: Work Sans, sans-serif;
+  font-weight: 700;
+}
+
+.frame-1548 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 3px;
+  width: 100%;
+  box-sizing: border-box;
+}
+._-25 {
+  color: rgba(245, 67, 53, 1);
+  font-size: 32px;
+  line-height: 88%;
+  font-family: Work Sans, sans-serif;
+  font-weight: 600;
+}
+
+.max-cash-back {
+  color: rgba(42, 42, 42, 1);
+  font-size: 10px;
+  line-height: 120%;
+  font-family: Work Sans, sans-serif;
+  font-weight: 700;
+}
+
+.frame-1544 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.hilton-jpeg-0 {
+  width: 24px;
+  height: 100%;
+}
+
+.hilton {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  line-height: 129%;
+  font-family: Work Sans, sans-serif;
+  font-weight: 600;
+  text-align: right;
+}
