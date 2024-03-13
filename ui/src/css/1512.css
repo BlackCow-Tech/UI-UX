@@ -3,7 +3,7 @@
   bottom: 0; /* 定位到屏幕底部 */
   left:49.2%; /* 水平居中 */
   transform: translateX(-50%); /* 确保宽度为342px时居中对齐 */
-  width: 341px; /* 定宽 */
+  width: 100%; /* 定宽 */
   background-color: #ffffff;
 
   border-radius: 4px 4px 0 0; /* 顶部圆角 */
@@ -52,6 +52,14 @@
 }
 
 .menu-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start; /* 这将使所有子项垂直居中 */
+  width: 100%; /* 或特定宽度 */
+  gap: 8px;
+}
+.menu-content1 {
   height: auto;
   display: flex;
   flex-direction: column;

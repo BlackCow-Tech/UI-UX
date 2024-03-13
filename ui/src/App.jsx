@@ -15,13 +15,14 @@ function App() {
   return (
     <>
         <div className='body'>
-      <F104/>
+      <F104/>     
       <F1449/>
       <F47/>
       <F1577/>
       <F1475/>
       <F1512/>
-    </div>
+      </div>
+
     
 
     </>

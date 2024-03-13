@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "vite": "^5.1.2"
+  },
+  "dependencies": {
+    "map": "^1.0.1"
+  }
+}

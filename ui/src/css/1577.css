@@ -5,16 +5,19 @@
 p {
   margin: 0;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 .frame-1577 {
-    position: relative;
-    display: flex;
-    flex-direction: column; /* 垂直排列子元素 */
-    align-items: self-start; /* 子元素在水平方向上居中 */
-    width: 342px; /* 或根据实际需要调整 */
-    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
     gap: 8px;
+
+
+    width: 100%;
   }
+
   .frame-screen .group1449 {
     height: 22px;
     margin-right: -4px;
@@ -22,18 +25,12 @@ p {
     width: 346px;
   }
 
-  .group-1577 {
-    gap: 8px;
-    width: 342px;
-    box-sizing: border-box;
-  }
   .frame-157 {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
   
     width: 100%;
-    height: 40px;
     box-sizing: border-box;
   }
   .category {
@@ -46,7 +43,7 @@ p {
 /* 图标和文本的容器，现在整合到.frame-1577内进行布局调整 */
 .group-58 {
   display: flex;
-  width: 100%;
+  width: 98%;
   justify-content: space-around; /* 确保子元素平均分布 */
   align-items: center; /* 垂直居中对齐 */
   box-sizing: border-box;

@@ -33,35 +33,68 @@
     --title-small-semibold-letter-spacing: 0px;
     --title-small-semibold-line-height: 18px;
    }
+   body {
+    margin: 0;
+    padding: 0;
+  }
+  
    .frame-screen {
     display: inline-flex;
     flex-direction: column;
     gap: 8px;
     overflow-x: hidden;
     position: relative;
+    width: 100%;
+
   }
+  .frame-clicked-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    overflow-x: auto;
+    width: 100%; 
+
+    box-sizing: border-box;
+    scrollbar-width: thin; 
+}
+
+.frame-clicked-items::-webkit-scrollbar {
+    height: 8px; 
+}
   
-  .frame-screen .group1449 {
-    height: 22px;
-    margin-right: -4px;
-    position: relative;
-    width: 346px;
+.frame-clicked-items::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+  
+.frame-clicked-items::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+  .frame-h1{
+    display: inline-flex;
+    row-gap: 8px;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 100%;
   }
   .frame-brand {
     display: flex;
     flex-direction: row;
-    gap: 2px;
-    overflow-x: auto; /* 允许水平滚动 */
-    overflow-y: hidden; /* 隐藏并禁止垂直滚动 */
-    width: 342px; /* 或根据需要调整容器宽度 */
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%; 
     box-sizing: border-box;
-    scrollbar-width: thin; /* 为滚动条设置较细的样式（仅在支持的浏览器中） */
-    scrollbar-color: #888 #f0f0f0; /* 自定义滚动条颜色（仅在支持的浏览器中） */
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #f0f0f0; 
   }
   
-  /* 针对Webkit浏览器的滚动条样式 */
+
   .frame-brand::-webkit-scrollbar {
-    height: 8px; /* 调整滚动条高度 */
+    height: 8px; 
   }
   
   .frame-brand::-webkit-scrollbar-track {
@@ -86,7 +119,13 @@
     top: 0;
     white-space: nowrap;
   }
-  
+  .see-all {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    line-height: 180%;
+    font-family: Work Sans, sans-serif;
+    font-weight: 600;
+  }
   .frame-screen .text-wrapper-9 {
     color: #000000;
     font-family: var(--title-small-semibold-font-family);

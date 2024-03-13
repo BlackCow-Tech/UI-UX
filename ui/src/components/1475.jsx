@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import '../css/1475.css'
+import '../css/1449.css'
 
 import React from "react"
 import F1563 from './1563'
@@ -8,7 +9,7 @@ import F1563 from './1563'
 
 export default function F1475() {
   return (
-    <div className="frame-1475">
+    <div className="frame-h1">
       <div className="frame-1474">
         <div className="frame-1473">
           <img
@@ -20,11 +21,26 @@ export default function F1475() {
         </div>
         <p className="see-all">See all</p>
       </div>
+      <div className='frame-h1'>
       <div className="frame-brand">
         <F1563/>
         <F1563/>
         <F1563/>
+        <F1563/>
+        <F1563/>
+        <F1563/>
       </div>
+      <div className="frame-brand">
+        <F1563/>
+        <F1563/>
+        <F1563/>
+        <F1563/>
+        <F1563/>
+        <F1563/>
+      </div>
+      </div>
+
+      
     </div>
   )
 }

@@ -38,7 +38,7 @@ p {
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.05);
 }
-.frame-1566 {
+.frame1562-1566 {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -47,13 +47,13 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 10px;
-  width: 38px;
+  width: auto;
   height: 20px;
   padding: 4px;
   border-top-left-radius: 8px;
   border-bottom-right-radius: 8px;
   box-sizing: border-box;
-  background-color: rgb(22, 122, 222);
+  background-color: rgb(98, 124, 219);
 }
 .frame2-1545 {
   display: flex;
@@ -63,7 +63,6 @@ p {
   gap: 4px;
   width: 100%;
   height: 100%;
-  box-sizing: border-box;
 }
 .chase {
   color: rgba(255, 255, 255, 1);

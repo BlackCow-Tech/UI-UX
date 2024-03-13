@@ -3,7 +3,7 @@ import "../css/1577.css"
 
 export default function F1577() {
   return (
-    <div className="group-1577">
+    <div className="frame-1577">
       <div className="frame-157">
         <p className="category">Category</p>
       </div>

@@ -15,6 +15,7 @@ p {
   width: 115px;
   height: 106px;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 .group-56 {
   position: relative;
